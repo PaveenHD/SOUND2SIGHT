@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  .text1
+  {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .heading {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .file-label {
+    display: inline-block;
+    background-color: #bb00ff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .file-label:hover {
+    background-color: #ae00ff;
+  }
+  
+  .file-label input[type="file"] {
+    display: none;
+  }
+  
+  .error-message {
+    color: red;
+    font-weight: bold;
+    display: none;
+  }
+  
+  .button {
+    display: inline-block;
+    cursor: pointer;
+  }
+ 
+  
+.section
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.header h1
+{
+    font-size: 60px;
+}
+
+.header span
+{
+    font-family: "Brygada 1918", serif;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.file-upload
+{
+    border: dashed 1px grey;
+    width: 400px;
+    height: 120px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.file-upload p
+{
+    font-weight: 500;
+}
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .heading {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .radio-group {
+    margin-top: 20px;
+    display: flex;
+  }
+  /* .radio-group:hover{
+    box-shadow: 0 0 10px black;
+  } */
+  
+  .radio-label {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  input[type="radio"] + .radio-label::before {
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    border: 1px solid #bb00ff;
+    border-radius: 50%;
+    vertical-align: middle;
+  }
+  
+  /* input[type="radio"]:checked + .radio-label::before {
+    background-color: #bb00ff;
+  } */
+  input[type="radio"]:checked+.radio-label::before{
+    background-color: darkviolet;
+    opacity: 0.5;
+  }
+  .generate
+  {
+    margin: auto;
+    display: flex;
+    gap: 25px;
+    width: 450px;
+  }
+
+  .generate button
+  {
+    width: 100px;
+    height: 35px;
+    margin: 0px 10px;
+    background-color: #bb00ff;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+  }
+
+  .generate button:hover
+  {
+    background-color: #ae00ff;
+    box-shadow: 0 0 5px #bb00ff;
+
+  }
+
+  .generate p
+  {
+    margin-top: 3px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  
+  .aside{
+    text-align:justify;
+    left: 50px;
+  }
+

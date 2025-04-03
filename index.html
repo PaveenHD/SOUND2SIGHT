@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400..700;1,400..700&display=swap"
+          rel="stylesheet">
+    <script src="script.js" defer></script>
+    <title>Sound2Sight</title>
+</head>
+<body>
+
+<!-- Pencil Sketch
+Cartoon 
+Oil painting -->
+<div class="section">
+    <div class="header">
+        <h1>Sound2<span>Sight</span></h1>
+    </div>
+    <div class="file-upload">
+        <div>
+            <p id="text1">Upload your Audio file here</p>
+        </div>
+        <div>
+            <label for="fileInput" class="file-label">
+                <span id="fileinp" class="button">Choose File</span>
+                <input onclick="fileUpload()" type="file" id="fileInput"
+                       accept=".wav">
+            </label>
+        </div>
+        <div>
+            <p id="errorMessage" class="error-message"></p>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2 class="heading">Select Art Style</h2>
+        <div class="radio-group">
+            <input type="radio" id="cartoon" name="artStyle" value="cartoon">
+            <label for="cartoon" class="radio-label">Cartoon</label><br>
+
+            <input type="radio" id="oilPainting" name="artStyle" value="oilPainting">
+            <label for="oilPainting" class="radio-label">Oil Painting</label><br>
+
+            <input type="radio" id="pencilSketch" name="artStyle" value="pencilSketch">
+            <label for="pencilSketch" class="radio-label">Pencil Sketch</label>
+
+            <input type="radio" id= "anime" name="artStyle" value="anime">
+            <label for="anime" class="radio-label">Anime</label> 
+        </div>
+    </div>
+
+    <div class="generate">
+        <div>
+            <p>Generate Image</p>
+        </div>
+        <div>
+            <button id="standardButton">Standard</button>
+            <button id="hdButton">HD</button>
+        </div>
+    </div>
+
+    <!-- <audio controls id="audioPlayer" style="display: none;">
+        Your browser does not support the audio element.
+    </audio> -->
+</div>
+<aside>
+    <p id="aside"></p> hello </p> 
+</aside>
+</body>
+</html>

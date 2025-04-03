@@ -1,0 +1,8 @@
+diffusers
+transformers 
+scipy 
+ftfy 
+accelerate
+SpeechRecognition 
+fastdtw 
+googletrans
